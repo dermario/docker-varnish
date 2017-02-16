@@ -1,7 +1,5 @@
 FROM centos:centos7
 
-MAINTAINER Mario Schnauss mario.schnauss@unic.com
-
 RUN yum update -y && \
   yum install -y epel-release && \
   yum install -y varnish && \
